@@ -10,3 +10,8 @@ git branch -M main
 git add *  
 git commit -m "first commit"  
 git push -u origin main  
+git checkout -b antoine  
+echo "bonjour, je suis le fichier de la branche antoine" > fichier_branche_antoine.txt  
+git add * 
+git commit -m "second commit"
+git push -u origin main 
